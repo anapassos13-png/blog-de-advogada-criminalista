@@ -1,28 +1,173 @@
-<p>blog da advogada</p>
-
-<p>ou ajuda as pessos a entender e defender seus direitos</p>
-
+<
 <!DOCTYPE html>
-
-<html lang="en">
+<html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog da Advogada | Seus Direitos Explicados</title>
+    <style>
+        /* Configuração Global */
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f6f8;
+            color: #333333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: #183C63;
+            color: #FFFFFF;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 32px 16px;
+            border-radius: 8px 8px 0 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0 0 8px 0;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #d1e0f0;
+        }
+
+        /* Container Principal */
+        main {
+            background-color: #FFFFFF;
+            color: #183C63;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 24px;
+            border-radius: 0 0 8px 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        /* Card do Artigo */
+        article {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 20px;
+            border: 1px solid #e0e6ed;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        article:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        article h2 {
+            margin: 4px 0 8px 0;
+            font-size: 1.3rem;
+            color: #183C63;
+        }
+
+        article p {
+            margin: 0;
+            color: #555555;
+            font-size: 0.95rem;
+        }
+
+        /* Imagem / Avatar */
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        /* Metadados do Autor */
+        .artigo-autor {
+            font-weight: bold;
+            color: #183C63;
+            display: block;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Seção de Referências Legais */
+        .referencias {
+            margin-top: 32px;
+            padding-top: 20px;
+            border-top: 2px dashed #e0e6ed;
+            font-size: 0.9rem;
+            color: #555555;
+        }
+
+        .referencias h3 {
+            font-size: 1.1rem;
+            color: #183C63;
+            margin: 0 0 12px 0;
+        }
+
+        .referencias ul {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .referencias li {
+            margin-bottom: 8px;
+        }
+
+        .referencias a {
+            color: #183C63;
+            text-decoration: underline;
+            font-weight: 500;
+        }
+
+        .referencias a:hover {
+            color: #0d233a;
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 600px) {
+            article {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
 </head>
 <body>
 
-</body>
-</html><!DOCTYPE html>
+    <header>
+        <h1>Blog da Advogada</h1>
+        <p>Ajudando você a entender e defender os seus direitos</p>
+    </header>
 
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-</head>
-<body>
-<h1>Meu blog tech</h1>
-<p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+    <main>
+        <article>
+            <img src="https://via.placeholder.com/80" alt="Foto da Advogada">
+            <div>
+                <span class="artigo-autor">Por Dra. Amanda Silva</span>
+                <h2>Direitos do Consumidor: O que você precisa saber</h2>
+                <p>Entenda como funcionam os prazos para troca de produtos, cancelamento de compras online e o que fazer em caso de cobranças indesejadas.</p>
+            </div>
+        </article>
+
+        <section class="referencias">
+            <h3>Fontes e Referências Oficiais</h3>
+            <ul>
+                <li><a href="https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm" target="_blank" rel="noopener">Código de Defesa do Consumidor (Lei nº 8.078/1990)</a></li>
+                <li><a href="https://www.consumidor.gov.br" target="_blank" rel="noopener">Consumidor.gov.br - Plataforma Oficial de Solução de Conflitos</a></li>
+                <li><a href="https://www.oab.org.br" target="_blank" rel="noopener">Ordem dos Advogados do Brasil (OAB)</a></li>
+            </ul>
+        </section>
+    </main>
+
 </body>
 </html>
